@@ -1,0 +1,110 @@
+*{border:0px solid red;}
+
+body {
+	font-size: 62.5%;
+	font-family: 'Lato', sans-serif;
+	color: #444;
+}
+.content-wrap {
+	width: 100%;
+	padding: 5em 2em;
+	margin: 0 auto;	
+}
+p {
+	font-size: 1.8em;
+		
+}
+h1 {
+	font-size: 2.2em;
+	font-family: 'Oswald', sans-serif;
+}
+.header-wrap {
+	width: 100vh;
+	background: #fff;
+	padding: 0 2em;
+}
+header {
+	width: 100%;
+	margin: 0 auto;
+}
+
+nav {
+	
+	padding:10px 150px 0px 0px;
+	font-size: 1.4em;
+	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	white-space: nowrap;
+	
+}
+
+/*======= add logo style here if needed=====*/
+
+/*========end of header==============*/
+section {
+	display: flex;
+	flex-wrap: wrap;
+
+
+
+}
+
+.hej {
+	background: url(../img/halfCircle2.png)repeat-x;
+	width: 100%;
+	margin-top: -10px;
+	padding-bottom: 10px;
+
+
+}
+
+/*=========add style of the flower image here======*/
+#mainpage img{
+	width: 100%;
+	height: 350px;
+
+}
+
+#mainpage {
+	justify-content: center;
+}
+
+
+/*========add the graphic border style here, width 100% height 20px======*/
+div #pattern {
+	width: 100%
+	height: 20px;
+
+
+}
+
+article {
+	width: 30%;
+	height: auto;
+	text-align: center;
+}
+
+
+
+/*===starting images with figure====*/	
+
+
+/*====starting footer====*/
+footer {
+		clear:both;
+		width:100%;
+		height:auto;
+		margin:0 auto;
+		margin-top:1.5em;
+		padding:.2em .5em;
+		background:#1a1a1a;
+		color:#bbb;
+	}
+footer>p {
+		width:100%;
+		color:#999;
+		font-size:1.6em;
+		overflow:hidden;
+		margin:2em;
+	}
